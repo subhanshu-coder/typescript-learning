@@ -28,3 +28,5 @@ chaiPrice.push("dhyan"); //this is wrong because chaiPrice is of type number[] a
 
 let userInfo: [string, number, boolean] 
 userInfo = ["dhyan", 20, true]
+
+const chaiItems: [name: string, price: number] = ["masala", 20]
