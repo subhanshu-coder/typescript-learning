@@ -13,10 +13,14 @@ const menu: chaivalue[] = [
     {name : "ginger", price: 20}
 ]
 
-const cities: readonly string[] = {"delhi", "jaipur"}
+const cities: readonly string[] = ["delhi", "jaipur"]
 // cities.push("push")
 
 const table : number[][] = [
     [1,2,3,4],
     [5,6,7,8]
 ]
+
+let chaituple: [string, number];
+chaituple = ["chai", 10]
+// chaituple = [20, "masala"] //this is wrong because the first element should be string and second should be number
