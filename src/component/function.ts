@@ -14,3 +14,8 @@ price: number
 function getchaiPrice (): number {
     return 10;
 }
+
+function makeorder(order:string) {
+    if (!order) return null;
+    return order;
+}
