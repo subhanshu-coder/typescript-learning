@@ -15,3 +15,8 @@ const menu: chaivalue[] = [
 
 const cities: readonly string[] = {"delhi", "jaipur"}
 // cities.push("push")
+
+const table : number[][] = [
+    [1,2,3,4],
+    [5,6,7,8]
+]
