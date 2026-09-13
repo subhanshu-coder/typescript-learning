@@ -7,3 +7,8 @@ type chaivalue = {
     name: string;
     age: number;
 }
+
+const menu: chaivalue[] = [
+    {name : "masala", price: 25},
+    {name : "ginger", price: 20}
+]
