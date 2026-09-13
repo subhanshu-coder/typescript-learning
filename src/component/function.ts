@@ -19,3 +19,7 @@ function makeorder(order:string) {
     if (!order) return null;
     return order;
 }
+
+function logchai(): void{
+    console.log("chai is ready");
+}
