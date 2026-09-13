@@ -5,10 +5,13 @@ const rating: Array<number> = [2.5,5.0]
 
 type chaivalue = {
     name: string;
-    age: number;
+    price: number;
 }
 
 const menu: chaivalue[] = [
     {name : "masala", price: 25},
     {name : "ginger", price: 20}
 ]
+
+const cities: readonly string[] = {"delhi", "jaipur"}
+// cities.push("push")
