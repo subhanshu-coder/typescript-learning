@@ -26,7 +26,7 @@ chaituple = ["chai", 10]
 // chaituple = [20, "masala"] //this is wrong because the first element should be string and second should be number
 // chaiPrice.push("dhyan"); //this is wrong because chaiPrice is of type number[] and we are trying to push a string into it
 
-let userInfo: [string, number, boolean] 
-userInfo = ["dhyan", 20, true]
+// let userInfo: [string, number, boolean] 
+// userInfo = ["dhyan", 20, true]
 
-const chaiItems: [name: string, price: number] = ["masala", 20]
+// const chaiItems: [name: string, price: number] = ["masala", 20]
