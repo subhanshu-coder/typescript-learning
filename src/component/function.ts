@@ -1,29 +1,29 @@
-// // function makechai(type : string, cups: number) {
-// //     console.log(`makechai ${cups} cupsof ${type} chai`);
-// // }
-// // makechai("masala", 2);
-
-// function createchai (order: {
-// name: string,
-// price: number
-// }): number {
-//     return 4
+// function makechai(type : string, cups: number) {
+//     console.log(`makechai ${cups} cupsof ${type} chai`);
 // }
+// makechai("masala", 2);
 
-// // makechai("ginger", 3);
-// function getchaiPrice (): number {
-//     return 10;
-// }
+function createchai (order: {
+name: string,
+price: number
+}): number {
+    return 4
+}
 
-// function makeorder(order:string) {
-//     if (!order) return null;
-//     return order;
-// }
+// makechai("ginger", 3);
+function getchaiPrice (): number {
+    return 10;
+}
 
-// function logchai(): void{
-//     console.log("chai is ready");
-// }
+function makeorder(order:string) {
+    if (!order) return null;
+    return order;
+}
 
-// function orderchai(type :string = "masala", cups: number = 1): string {
-//     return `order ${cups} cups of ${type} chai`;
-// }
+function logchai(): void{
+    console.log("chai is ready");
+}
+
+function orderchai(type :string = "masala", cups: number = 1): string {
+    return `order ${cups} cups of ${type} chai`;
+}
