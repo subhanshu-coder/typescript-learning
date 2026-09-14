@@ -11,9 +11,9 @@ price: number
 }
 
 // makechai("ginger", 3);
-function getchaiPrice (): number {
-    return 10;
-}
+// function getchaiPrice (): number {
+//     return 10;
+// }
 
 function makeorder(order:string) {
     if (!order) return null;
