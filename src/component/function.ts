@@ -3,12 +3,12 @@ function makechai(type : string, cups: number) {
 }
 makechai("masala", 2);
 
-// function createchai (order: {
-// name: string,
-// price: number
-// }): number {
-//     return 4
-// }
+function createchai (order: {
+name: string,
+price: number
+}): number {
+    return 4
+}
 
 // makechai("ginger", 3);
 function getchaiPrice (): number {
