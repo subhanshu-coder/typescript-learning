@@ -3,11 +3,11 @@ let tea: {
         price: number;
         isAvailable: boolean;
 }
-// tea ={
-//     name: "masala",
-//     price: 20,
-//     isAvailable: true
-// }
+tea ={
+    name: "masala",
+    price: 20,
+    isAvailable: true
+}
 
 type cup = {size: string};
 let chaiCup: cup = {size: "small"};
