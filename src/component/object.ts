@@ -1,8 +1,8 @@
-let tea: {
+ let tea: {
         name: string;
         price: number;
-        isAvailable: boolean;
-}
+         isAvailable: boolean;
+ }
 tea ={
     name: "masala",
     price: 20,
