@@ -9,7 +9,7 @@ tea ={
     isAvailable: true
 }
 
-// type cup = {size: string};
-// let chaiCup: cup = {size: "small"};
+type cup = {size: string};
+let chaiCup: cup = {size: "small"};
 
-// let chaiCup1: {size: string} = {size: "small"};
+let chaiCup1: {size: string} = {size: "small"};
