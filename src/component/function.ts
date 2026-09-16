@@ -20,10 +20,10 @@ function makeorder(order:string) {
     return order;
 }
 
-function logchai(): void{
-    console.log("chai is ready");
-}
+// function logchai(): void{
+//     console.log("chai is ready");
+// }
 
-function orderchai(type :string = "masala", cups: number = 1): string {
-    return `order ${cups} cups of ${type} chai`;
-}
+// function orderchai(type :string = "masala", cups: number = 1): string {
+//     return `order ${cups} cups of ${type} chai`;
+// }
