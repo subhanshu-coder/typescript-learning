@@ -21,9 +21,9 @@ console.log(t);
 type basechai = {tealeave : number}
 type extra = {milk : number}
 
-// type masalachai = basechai & extra
-// const cup: masalachai = {
-//     tealeave: 5,
-//     milk: 10
+type masalachai = basechai & extra
+const cup: masalachai = {
+    tealeave: 5,
+    milk: 10
 
-// }
+}
