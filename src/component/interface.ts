@@ -12,11 +12,11 @@ const user1: user = {
     age: 20
 };
 
-type Teatype = "masala" | "ginger" | "lemon"
+// type Teatype = "masala" | "ginger" | "lemon"
 
-function order(t: Teatype) {
-console.log(t);
-}
+// function order(t: Teatype) {
+// console.log(t);
+// }
 
 type basechai = {tealeave : number}
 type extra = {milk : number}
