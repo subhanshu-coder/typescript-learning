@@ -18,8 +18,8 @@ function order(t: Teatype) {
 console.log(t);
 }
 
-type basechai = {tealeave : number}
-type extra = {milk : number}
+// type basechai = {tealeave : number}
+// type extra = {milk : number}
 
 type masalachai = basechai & extra
 const cup: masalachai = {
