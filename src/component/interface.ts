@@ -3,9 +3,9 @@ interface user {
     age : number;
 }
 
-// function add(a: number, b: number): number {
-//     return a + b;
-// }
+function add(a: number, b: number): number {
+    return a + b;
+}
 
 const user1: user = {
     name :"prince",
